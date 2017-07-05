@@ -1,0 +1,6 @@
+<div *ngFor = "let value of this.webservice.messages" >
+  <md-card style="margin:8px">
+  <md-card-title>{{value.owner}}</md-card-title>
+  <md-card-content>{{value.text}}</md-card-content>
+  </md-card>
+</div>
